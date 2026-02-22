@@ -106,9 +106,9 @@ workspace/
 Recommended format: `{course-slug}-{YYYYMMDD}`
 
 Examples:
-- `digital-tourism-20260315`
-- `short-video-20260401`
-- `engineering-safety-20260420`
+- `research-methods-20260315`
+- `media-production-20260401`
+- `env-science-20260420`
 
 ---
 
@@ -121,8 +121,8 @@ updated after every submission is processed.
 
 ```json
 {
-  "batch_id": "digital-tourism-20260315",
-  "rubric_id": "digital-tourism-case-analysis-v1.0",
+  "batch_id": "research-methods-20260315",
+  "rubric_id": "research-methods-case-analysis-v1.0",
   "rubric_version": 1.0,
   "mode": "real-time",
   "started_at": "2026-03-15T10:00:00",
@@ -211,7 +211,7 @@ The Skill detects `progress.json` exists, loads state, and continues.
 After batch completion, generate an error summary:
 
 ```
-Batch Error Report: digital-tourism-20260315
+Batch Error Report: research-methods-20260315
 ═══════════════════════════════════════════
 
 Total: 80  |  Completed: 76  |  Failed: 4

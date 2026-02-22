@@ -7,10 +7,10 @@ course types and modalities. Use them as starting points for your own Rubrics.
 
 | File | Course | Modality | Dimensions | Notes |
 |------|--------|----------|------------|-------|
-| `digital-tourism-rubric.yaml` | Digital Tourism Strategy | Text (docx/pdf) | 4 (analysis, data, strategy, writing) | Case analysis report with references gate |
-| `short-video-rubric.yaml` | Short Video Creation & Operations | Mixed (mp4 + docx) | 4 (creativity, production, strategy, data) | Video + operation report, dual-file gate |
-| `new-media-rubric.yaml` | New Media Operations & Promotion | Mixed (docx + images) | 4 (strategy, target, execution, visual) | Strategy plan with visual design assessment |
-| `engineering-safety-rubric.yaml` | Engineering Safety | Text (docx/pdf) | 4 (accuracy, compliance, risk, recommendations) | Technical report with standards citation gate |
+| `research-paper-rubric.yaml` | Research Methods | Text (docx/pdf) | 4 (analysis, data, strategy, writing) | Case analysis report with references gate |
+| `video-project-rubric.yaml` | Digital Media Production | Mixed (mp4 + docx) | 4 (creativity, production, strategy, data) | Video + creation report, dual-file gate |
+| `marketing-plan-rubric.yaml` | Marketing Fundamentals | Mixed (docx + images) | 4 (strategy, target, execution, visual) | Marketing plan with visual design assessment |
+| `technical-report-rubric.yaml` | Environmental Science | Text (docx/pdf) | 4 (accuracy, compliance, risk, recommendations) | Technical report with standards citation gate |
 
 ## How to Use
 

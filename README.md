@@ -265,14 +265,14 @@ Checks for length bias, position bias, dimension coupling, score concentration, 
 
 ## Examples
 
-The `examples/` directory contains four complete Rubric YAMLs for real university courses:
+The `examples/` directory contains four complete Rubric YAMLs covering common course types:
 
 | Example | Course | Modality |
 |---------|--------|----------|
-| `digital-tourism-rubric.yaml` | Digital Tourism Strategy | Text |
-| `short-video-rubric.yaml` | Short Video Creation | Mixed (video + text) |
-| `new-media-rubric.yaml` | New Media Operations | Mixed (text + images) |
-| `engineering-safety-rubric.yaml` | Engineering Safety | Text |
+| `research-paper-rubric.yaml` | Research Methods | Text |
+| `video-project-rubric.yaml` | Digital Media Production | Mixed (video + text) |
+| `marketing-plan-rubric.yaml` | Marketing Fundamentals | Mixed (text + images) |
+| `technical-report-rubric.yaml` | Environmental Science | Text |
 
 ## FAQ
 

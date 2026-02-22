@@ -1,21 +1,21 @@
-# 新媒体运营与推广 — 运营方案策划评分标准
-# New Media Operations & Promotion — Strategy Plan Rubric
+# 市场营销基础 — 营销方案策划评分标准
+# Marketing Fundamentals — Marketing Plan Rubric
 #
 # Modality: Mixed (docx/pdf + images)
 # Students: ~150
 # Language: zh-CN
 
 rubric:
-  id: new-media-plan-v1.0
-  name: "新媒体运营方案评分标准"
+  id: marketing-plan-v1.0
+  name: "营销方案策划评分标准"
   version: 1.0
   created: "2026-02-22"
   updated: "2026-02-22"
   author: "课程组"
 
   course:
-    name: "新媒体运营与推广"
-    assignment: "运营方案策划"
+    name: "市场营销基础"
+    assignment: "营销方案策划"
     submission_type: mixed
     expected_formats: ["docx", "pdf", "jpg", "png"]
     student_count: 150
@@ -34,7 +34,7 @@ rubric:
       name: "策略逻辑"
       weight: 0.30
       scale: [1, 2, 3, 4, 5]
-      description: "运营策略的逻辑完整性和可行性"
+      description: "营销策略的逻辑完整性和可行性"
       scoring_guidance: "关注目标→策略→执行→评估的闭环完整性，策略选择是否有理据支撑"
       anchors:
         5: "目标→策略→执行→评估的完整闭环；策略选择有理据；执行步骤可操作"
@@ -48,7 +48,7 @@ rubric:
       name: "目标明确性"
       weight: 0.25
       scale: [1, 2, 3, 4, 5]
-      description: "运营目标是否清晰、可量化、可评估"
+      description: "营销目标是否清晰、可量化、可评估"
       scoring_guidance: "关注是否使用SMART原则，是否有阶段性目标和可量化KPI"
       anchors:
         5: "SMART 目标明确；有阶段性里程碑；KPI 可量化"

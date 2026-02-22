@@ -1,20 +1,20 @@
-# 数字旅游战略 — 案例分析报告评分标准
-# Digital Tourism Strategy — Case Analysis Report Rubric
+# 研究方法论 — 案例分析报告评分标准
+# Research Methods — Case Analysis Report Rubric
 #
 # Modality: Text (docx/pdf)
 # Students: ~80
 # Language: zh-CN
 
 rubric:
-  id: digital-tourism-case-analysis-v1.0
-  name: "数字旅游战略案例分析报告评分标准"
+  id: research-methods-case-analysis-v1.0
+  name: "研究方法论案例分析报告评分标准"
   version: 1.0
   created: "2026-02-22"
   updated: "2026-02-22"
   author: "课程组"
 
   course:
-    name: "数字旅游战略"
+    name: "研究方法论"
     assignment: "案例分析报告"
     submission_type: text
     expected_formats: ["docx", "pdf"]
@@ -44,7 +44,7 @@ rubric:
       name: "分析深度"
       weight: 0.30
       scale: [1, 2, 3, 4, 5]
-      description: "对旅游案例的深入程度，是否超越现象层面挖掘根因"
+      description: "对案例的深入程度，是否超越现象层面挖掘根因"
       scoring_guidance: "关注是否有多层次分析（现象→原因→影响→启示），是否运用课程理论框架"
       anchors:
         5: "多层次分析清晰完整；正确运用2种以上理论框架；数据支撑充分；有原创性洞察"
@@ -72,7 +72,7 @@ rubric:
       name: "策略可行性"
       weight: 0.25
       scale: [1, 2, 3, 4, 5]
-      description: "提出的数字旅游策略是否可落地执行"
+      description: "提出的策略建议是否可落地执行"
       scoring_guidance: "关注策略的具体性、资源可行性、预期效果和风险考量"
       anchors:
         5: "策略具体可操作；考虑资源和时间约束；有预期效果量化；识别风险并有预案"

@@ -196,10 +196,10 @@ Here is what good CoT scoring looks like for a single dimension:
   "criterion_name": "Analysis Depth",
   "weight": 0.30,
   "evidence": "The student applies Porter's Five Forces to analyze the
-    competitive landscape of Hainan Island's tourism market (paragraph 3)
-    and references Butler's Tourism Area Life Cycle model to explain the
-    destination's current stage (paragraph 5). Data from the Hainan
-    Provincial Tourism Bureau (2024) is cited to support the analysis.",
+    competitive landscape of the regional retail market (paragraph 3)
+    and references Kotler's Marketing Mix framework to explain the
+    company's positioning strategy (paragraph 5). Data from the National
+    Bureau of Statistics (2024) is cited to support the analysis.",
   "reasoning": "The submission demonstrates multi-level analysis using two
     theoretical frameworks with data support. This matches the anchor for
     score 4: 'applies 1-2 theoretical frameworks; has data support; shows
@@ -207,7 +207,7 @@ Here is what good CoT scoring looks like for a single dimension:
     insight is limited -- the student describes the frameworks' application
     but does not synthesize them into a novel strategic recommendation.",
   "score": 4,
-  "improvement": "Synthesize the Porter and Butler analyses into a unified
+  "improvement": "Synthesize the Porter and Kotler analyses into a unified
     strategic insight, rather than presenting them as parallel discussions.",
   "confidence": 0.85
 }
@@ -454,7 +454,7 @@ descriptions** for each image. These descriptions are stored in the IR as:
   "visual_elements": "Bold headline in red, product image centered...",
   "extracted_text": "OCR text from the image...",
   "design_observations": "Professional color palette, clear visual hierarchy...",
-  "description": "A marketing poster for a tourism destination featuring..."
+  "description": "A marketing poster for a consumer product featuring..."
 }
 ```
 
@@ -473,8 +473,8 @@ When scoring image submissions:
 
 ### Mixed Submissions
 
-Mixed submissions (e.g., a docx report + jpg design mockups for a New Media
-Operations course) contain both text and image content in the IR. Scoring
+Mixed submissions (e.g., a docx report + jpg design mockups for a Marketing
+Fundamentals course) contain both text and image content in the IR. Scoring
 adapts as follows:
 
 - **Each dimension uses the most relevant modality**. A "Strategy Logic"
@@ -552,7 +552,7 @@ The weighted total falls in the range [1.0, 5.0].
 
 ### Example Calculation
 
-For a submission scored against the Digital Tourism Strategy rubric:
+For a submission scored against the Research Methods rubric:
 
 | Dimension | Weight | Score | Weighted |
 |-----------|--------|-------|----------|

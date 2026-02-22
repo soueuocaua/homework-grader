@@ -1,21 +1,21 @@
-# 短视频创作与运营 — 短视频作品评分标准
-# Short Video Creation & Operations — Video Submission Rubric
+# 数字媒体制作 — 视频作品评分标准
+# Digital Media Production — Video Submission Rubric
 #
 # Modality: Mixed (mp4 + docx)
 # Students: ~500
 # Language: zh-CN
 
 rubric:
-  id: short-video-creation-v1.0
-  name: "短视频作品评分标准"
+  id: media-production-video-v1.0
+  name: "视频作品评分标准"
   version: 1.0
   created: "2026-02-22"
   updated: "2026-02-22"
   author: "课程组"
 
   course:
-    name: "短视频创作与运营"
-    assignment: "短视频作品提交"
+    name: "数字媒体制作"
+    assignment: "视频作品提交"
     submission_type: mixed
     expected_formats: ["mp4", "docx"]
     student_count: 500
@@ -23,7 +23,7 @@ rubric:
   gates:
     - id: G-001
       name: "双文件门禁"
-      description: "必须同时提交视频文件和运营报告"
+      description: "必须同时提交视频文件和创作报告"
       check_method: structure
       parameters:
         required_files: ["*.mp4", "*.docx"]
@@ -34,7 +34,7 @@ rubric:
       name: "内容创意"
       weight: 0.25
       scale: [1, 2, 3, 4, 5]
-      description: "短视频的主题选择、创意表达和内容质量"
+      description: "视频的主题选择、创意表达和内容质量"
       scoring_guidance: "关注选题新颖性、叙事结构、信息密度和观点表达"
       anchors:
         5: "选题新颖有洞察；叙事引人入胜；信息密度高；有明确且独特的观点"
@@ -59,17 +59,17 @@ rubric:
       evidence_type: observation
 
     operation_strategy:
-      name: "运营策略"
+      name: "传播策略"
       weight: 0.25
       scale: [1, 2, 3, 4, 5]
-      description: "运营报告中的平台选择、发布策略、推广计划"
+      description: "创作报告中的平台选择、发布策略、推广计划"
       scoring_guidance: "关注目标受众定位、平台特性分析、发布时机选择、推广手段"
       anchors:
         5: "目标受众清晰；深入分析平台算法/特性；发布策略有依据；推广计划具体可行"
         4: "受众定位合理；了解平台基本规则；有发布和推广计划"
         3: "有受众描述但不够精准；平台分析表面化；计划较笼统"
         2: "受众定位模糊；对平台缺乏了解；无具体计划"
-        1: "无运营思考，仅描述制作过程"
+        1: "无传播思考，仅描述制作过程"
       evidence_type: quote
 
     data_analysis:
@@ -97,7 +97,7 @@ rubric:
     length_range: [200, 400]
     required_sections: ["strengths", "weaknesses", "suggestions"]
     prohibited_patterns:
-      - "仅评价视觉效果而忽略运营维度"
+      - "仅评价视觉效果而忽略传播维度"
       - "笼统评价（如'视频不错'）"
 
   history:

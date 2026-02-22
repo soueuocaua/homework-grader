@@ -12,15 +12,15 @@ Usage:
 
 Examples:
     # Real-time mode, 5 concurrent workers
-    python batch_score.py workspace/digital-tourism-20260315 \\
+    python batch_score.py workspace/research-methods-20260315 \\
         --rubric rubric.yaml
 
     # Batch API mode (50% cost discount)
-    python batch_score.py workspace/digital-tourism-20260315 \\
+    python batch_score.py workspace/research-methods-20260315 \\
         --rubric rubric.yaml --mode batch
 
     # Resume an interrupted batch
-    python batch_score.py workspace/digital-tourism-20260315 \\
+    python batch_score.py workspace/research-methods-20260315 \\
         --rubric rubric.yaml --resume
 """
 

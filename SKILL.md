@@ -800,10 +800,10 @@ homework-grader/
 │   └── ir-schema.json                    # IR file JSON Schema
 ├── examples/
 │   ├── README.md                         # Example index
-│   ├── digital-tourism-rubric.yaml       # Example: Digital Tourism Strategy
-│   ├── short-video-rubric.yaml           # Example: Short Video Creation
-│   ├── new-media-rubric.yaml             # Example: New Media Operations
-│   └── engineering-safety-rubric.yaml    # Example: Engineering Safety
+│   ├── research-paper-rubric.yaml        # Example: Research Methods
+│   ├── video-project-rubric.yaml         # Example: Digital Media Production
+│   ├── marketing-plan-rubric.yaml        # Example: Marketing Fundamentals
+│   └── technical-report-rubric.yaml      # Example: Environmental Science
 └── scripts/
     ├── requirements.txt                  # Python dependencies
     ├── preprocess.py                     # docx/pdf → IR
