@@ -1,0 +1,118 @@
+# 工程安全 — 安全评估报告评分标准
+# Engineering Safety — Safety Assessment Report Rubric
+#
+# Modality: Text (docx/pdf)
+# Students: ~60
+# Language: zh-CN
+
+rubric:
+  id: engineering-safety-assessment-v1.0
+  name: "工程安全评估报告评分标准"
+  version: 1.0
+  created: "2026-02-22"
+  updated: "2026-02-22"
+  author: "课程组"
+
+  course:
+    name: "工程安全"
+    assignment: "安全评估报告"
+    submission_type: text
+    expected_formats: ["docx", "pdf"]
+    student_count: 60
+
+  gates:
+    - id: G-001
+      name: "标准引用门禁"
+      description: "必须引用至少一项国家或行业安全标准"
+      check_method: keyword
+      parameters:
+        keywords: ["GB", "GBT", "GB/T", "AQ", "安全标准", "安全规范"]
+        min_count: 1
+      on_fail: flag
+
+    - id: G-002
+      name: "报告结构门禁"
+      description: "必须包含风险辨识和控制措施章节"
+      check_method: structure
+      parameters:
+        required_sections: ["风险辨识", "风险评估", "控制措施"]
+      on_fail: warn
+
+  criteria:
+    technical_accuracy:
+      name: "技术准确性"
+      weight: 0.30
+      scale: [1, 2, 3, 4, 5]
+      description: "安全评估中涉及的技术参数、方法和结论的正确性"
+      scoring_guidance: "关注技术参数是否准确、评估方法是否恰当、结论是否有充分技术支撑"
+      anchors:
+        5: "所有技术参数准确无误；评估方法选择恰当且应用正确；结论有充分的技术支撑"
+        4: "技术参数基本准确；方法选择合理；结论有支撑"
+        3: "部分参数有误或方法应用不够严谨；结论基本合理"
+        2: "多处技术错误；方法选择不当"
+        1: "技术内容严重错误或缺失"
+      evidence_type: quote
+
+    standards_compliance:
+      name: "标准合规性"
+      weight: 0.25
+      scale: [1, 2, 3, 4, 5]
+      description: "是否遵循相关安全标准和规范"
+      scoring_guidance: "关注标准引用数量、引用准确性、标准应用的正确性和合规判断依据"
+      anchors:
+        5: "正确引用并执行3项以上相关标准；标准应用准确；合规判断有依据"
+        4: "引用2-3项标准；应用基本正确"
+        3: "引用1项标准；应用有偏差"
+        2: "提及标准但未正确引用或应用"
+        1: "未引用任何安全标准"
+      evidence_type: quote
+
+    risk_analysis:
+      name: "风险分析完整性"
+      weight: 0.25
+      scale: [1, 2, 3, 4, 5]
+      description: "风险辨识、评估和控制措施的系统性和完整性"
+      scoring_guidance: "关注风险辨识的全面性、评估方法（定性/定量）、控制措施的具体性和层级性"
+      anchors:
+        5: "风险辨识系统全面；采用定量或半定量评估方法；控制措施具体可行且分层级"
+        4: "风险辨识覆盖主要方面；有评估方法；控制措施可行"
+        3: "风险辨识不够全面；评估方法粗糙；控制措施笼统"
+        2: "风险辨识严重遗漏；无评估方法"
+        1: "无风险分析"
+      evidence_type: observation
+
+    recommendation_actionability:
+      name: "建议可操作性"
+      weight: 0.20
+      scale: [1, 2, 3, 4, 5]
+      description: "安全改进建议的具体性和可执行性"
+      scoring_guidance: "关注建议的具体程度、是否有优先级排序、实施步骤和时间节点、资源约束考量"
+      anchors:
+        5: "建议具体明确；有优先级排序；有实施步骤和时间节点；考虑资源约束"
+        4: "建议较具体；有优先级；基本可执行"
+        3: "建议方向正确但笼统；缺乏实施细节"
+        2: "建议过于空泛或不切实际"
+        1: "无改进建议"
+      evidence_type: observation
+
+  thresholds:
+    accept: 3.0
+    reject: 1.5
+    review: [1.5, 3.0]
+
+  comment_guidelines:
+    tone: "严谨、建设性、具体"
+    language: "zh-CN"
+    length_range: [200, 400]
+    required_sections: ["strengths", "weaknesses", "suggestions"]
+    prohibited_patterns:
+      - "笼统表扬（如'报告写得好'而不说明哪里好）"
+      - "无具体指向的批评（如'分析不够深入'而不指出哪方面）"
+      - "忽略标准合规性维度的评价"
+
+  history:
+    - version: 1.0
+      date: "2026-02-22"
+      changes:
+        - "初始版本"
+      reason: "首次部署"
